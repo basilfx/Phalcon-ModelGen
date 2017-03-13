@@ -5,16 +5,16 @@
     "authors": [
         {
             "name": "Bas Stottelaar",
-            "email": "basstottelaar@gmail.com",
+            "email": "basstottelaar@gmail.com"
         }
     ],
     "require": {
         "php": ">=7.0.0",
         "ext-phalcon": "~3.0",
-        "nikic/php-parser": "~2.1",
+        "nikic/php-parser": "~2.1"
     },
     "require-dev": {
-        "phpunit/phpunit": "@stable",
+        "phpunit/phpunit": "@stable"
     },
     "autoload": {
         "psr-4": {
