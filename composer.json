@@ -1,0 +1,24 @@
+{
+    "name": "BasilFX/Phalcon-ModelGen",
+    "description": "Generate models using an extended set of model annotations.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bas Stottelaar",
+            "email": "basstottelaar@gmail.com",
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "ext-phalcon": "~3.0",
+        "nikic/php-parser": "~2.1",
+    },
+    "require-dev": {
+        "phpunit/phpunit": "@stable",
+    },
+    "autoload": {
+        "psr-4": {
+            "BasilFX\\ModelGen\\": "src"
+        }
+    }
+}
